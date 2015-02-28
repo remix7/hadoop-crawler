@@ -1,0 +1,30 @@
+/bin
+#ignore the metadata
+./metadata
+#Object files
+*.o
+*.ko
+*.obj
+*.elf
+#ignore all the swp files
+*.swp
+#ignore the .git file
+.git/
+#ignore the ./ ../ directory
+./
+../
+# Excutables files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+# shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+# Libraries
+*.lib
+*.a
